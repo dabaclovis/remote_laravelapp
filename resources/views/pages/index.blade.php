@@ -7,5 +7,6 @@
         <hr class="my-4">
         <p>Content</p>
     </div>
-
+<hr>
+{{ Str::length($name) }}
 @endsection

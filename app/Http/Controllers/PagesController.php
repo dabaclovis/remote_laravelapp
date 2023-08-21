@@ -8,6 +8,10 @@ class PagesController extends Controller
 {
     public function index()
     {
-        return view('pages.index');
+        $name = "UDj4DLnRWynBwvh/Bx5ZvHx0R6cQbWXe";
+
+        return view('pages.index',[
+            'name' => $name,
+        ]);
     }
 }
